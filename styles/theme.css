@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   background: rgb(23, 23, 23);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(0, 229, 255, 0.5);
+  box-shadow: 0 18px 200px rgba(46, 46, 46, 0.5);
 }
 header h1 {
   margin: 0;
@@ -33,7 +33,7 @@ section {
   padding: 3rem;
   background: #f0f0f0;
   border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0, 229, 255, 0.15);
+  box-shadow: 0 10px 40px rgba(46, 46, 46, 0.5);
   color: #006064;
 }
 h2 {
@@ -104,4 +104,12 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.icon-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* space between icons */
+  justify-content: center; /* optional for alignment */
+  align-items: center;
 }
