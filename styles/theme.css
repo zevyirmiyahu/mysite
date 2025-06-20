@@ -113,3 +113,17 @@ img {
   justify-content: center; /* optional for alignment */
   align-items: center;
 }
+
+.spin {
+  animation: spin 2s linear infinite;
+  display: block; /* optional, for consistent layout */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
